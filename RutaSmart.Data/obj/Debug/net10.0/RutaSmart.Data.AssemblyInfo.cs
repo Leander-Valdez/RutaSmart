@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RutaSmart.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea1fa9d6bdab699e745e67eba6dbc0eeb11ac0a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5b937940da17382ce5896fbecff87e367ca2eb5")]
 [assembly: System.Reflection.AssemblyProductAttribute("RutaSmart.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RutaSmart.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
