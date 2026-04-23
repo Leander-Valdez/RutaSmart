@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RutaSmart.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c45b39345e4593bae35d7fa171bd789d4f93ea8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8af2f801d191808309f45e0bd0d1f17b0b21b358")]
 [assembly: System.Reflection.AssemblyProductAttribute("RutaSmart.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RutaSmart.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
