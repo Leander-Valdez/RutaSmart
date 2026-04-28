@@ -476,8 +476,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
             BackColor = Color.White;
-            ClientSize = new Size(1184, 661);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(menuStrip1);
             Controls.Add(panelHeader);
