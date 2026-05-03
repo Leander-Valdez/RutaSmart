@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="RutaSmart.Data/RutaSmart.Data.csproj" />
+  <Project Path="RutaSmart.Test/RutaSmart.Test.csproj" />
+  <Project Path="RutaSmart/RutaSmart.UI.csproj" />
+</Solution>
