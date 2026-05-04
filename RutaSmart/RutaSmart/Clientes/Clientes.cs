@@ -102,7 +102,6 @@ namespace RutaSmart.UI.Clientes
 
             if (!valido) return;
 
-            // ACTUALIZAR DATOS
             dataGridView1.Rows[filaSeleccionada].Cells[1].Value = txtNombre.Text;
             dataGridView1.Rows[filaSeleccionada].Cells[2].Value = txtEmail.Text;
             dataGridView1.Rows[filaSeleccionada].Cells[3].Value = txtTelefono.Text;
