@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B394B0E2-0424-43BA-B45C-207ECB611291}</ProjectGuid>
+    <ProjectGuid>{76441437-174C-CF17-4075-9E01935BF7E9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RutaSmart.Test</RootNamespace>
