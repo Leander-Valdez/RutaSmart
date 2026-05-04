@@ -35,9 +35,9 @@
             btnLimpiar = new Button();
             btnGuardar = new Button();
             label1 = new Label();
-            comboBox1 = new ComboBox();
+            cmbEstado = new ComboBox();
             label5 = new Label();
-            textBox2 = new TextBox();
+            txtNombre = new TextBox();
             label4 = new Label();
             txtTelefono = new TextBox();
             label3 = new Label();
@@ -53,6 +53,7 @@
             Telefono = new DataGridViewTextBoxColumn();
             Estado = new DataGridViewTextBoxColumn();
             errorProvider1 = new ErrorProvider(components);
+            btnActualizar = new Button();
             paneltop.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             panel1.SuspendLayout();
@@ -92,12 +93,13 @@
             // 
             panel1.Anchor = AnchorStyles.None;
             panel1.BackColor = Color.WhiteSmoke;
+            panel1.Controls.Add(btnActualizar);
             panel1.Controls.Add(btnLimpiar);
             panel1.Controls.Add(btnGuardar);
             panel1.Controls.Add(label1);
-            panel1.Controls.Add(comboBox1);
+            panel1.Controls.Add(cmbEstado);
             panel1.Controls.Add(label5);
-            panel1.Controls.Add(textBox2);
+            panel1.Controls.Add(txtNombre);
             panel1.Controls.Add(label4);
             panel1.Controls.Add(txtTelefono);
             panel1.Controls.Add(label3);
@@ -135,6 +137,7 @@
             btnGuardar.TabIndex = 8;
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = false;
+            btnGuardar.Click += btnGuardar_Click;
             // 
             // label1
             // 
@@ -147,14 +150,14 @@
             label1.TabIndex = 0;
             label1.Text = "Gestion de Repartidores";
             // 
-            // comboBox1
+            // cmbEstado
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Disponible", "En Ruta", "Inactivo" });
-            comboBox1.Location = new Point(382, 88);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(134, 23);
-            comboBox1.TabIndex = 7;
+            cmbEstado.FormattingEnabled = true;
+            cmbEstado.Items.AddRange(new object[] { "Disponible", "En Ruta", "Inactivo" });
+            cmbEstado.Location = new Point(382, 88);
+            cmbEstado.Name = "cmbEstado";
+            cmbEstado.Size = new Size(134, 23);
+            cmbEstado.TabIndex = 7;
             // 
             // label5
             // 
@@ -166,12 +169,12 @@
             label5.TabIndex = 6;
             label5.Text = "Estado";
             // 
-            // textBox2
+            // txtNombre
             // 
-            textBox2.Location = new Point(108, 92);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(179, 23);
-            textBox2.TabIndex = 5;
+            txtNombre.Location = new Point(108, 92);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(179, 23);
+            txtNombre.TabIndex = 5;
             // 
             // label4
             // 
@@ -299,6 +302,21 @@
             // 
             errorProvider1.ContainerControl = this;
             // 
+            // btnActualizar
+            // 
+            btnActualizar.BackColor = Color.Coral;
+            btnActualizar.FlatAppearance.BorderSize = 0;
+            btnActualizar.FlatStyle = FlatStyle.Flat;
+            btnActualizar.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnActualizar.ForeColor = Color.White;
+            btnActualizar.Location = new Point(273, 132);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new Size(100, 30);
+            btnActualizar.TabIndex = 10;
+            btnActualizar.Text = "Actualizar";
+            btnActualizar.UseVisualStyleBackColor = false;
+            btnActualizar.Click += btnActualizar_Click;
+            // 
             // Repartidores
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -328,9 +346,9 @@
         private Label label1;
         private TableLayoutPanel tableLayoutPanel1;
         private Panel panel1;
-        private ComboBox comboBox1;
+        private ComboBox cmbEstado;
         private Label label5;
-        private TextBox textBox2;
+        private TextBox txtNombre;
         private Label label4;
         private TextBox txtTelefono;
         private Label label3;
@@ -347,5 +365,6 @@
         private DataGridViewTextBoxColumn Nombre;
         private DataGridViewTextBoxColumn Telefono;
         private DataGridViewTextBoxColumn Estado;
+        private Button btnActualizar;
     }
 }
